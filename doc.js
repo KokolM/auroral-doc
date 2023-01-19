@@ -1,5 +1,3 @@
-const cdn = 'https://cdn.jsdelivr.net/gh/KokolM/auroral-doc'
-
 const hide = 'display: none'
 const show = 'display: block'
 
@@ -133,7 +131,7 @@ function loadStyles() {
     position: absolute !important;
     bottom: 16 !important;
     right: 12 !important;
-    background-image: url('./icon-48.png') !important;
+    background-image: url('https://cdn.jsdelivr.net/gh/KokolM/auroral-doc/icon-48.png') !important;
     width: 48px !important;
     height: 48px !important;
   }
@@ -207,7 +205,7 @@ function loadStyles() {
   }
   
   #_auroral-doc-panel-title::before {
-    content: url('./icon-24.png') !important;
+    content: url('https://cdn.jsdelivr.net/gh/KokolM/auroral-doc/icon-24.png') !important;
     width: 24px !important;
     height: 24px !important;
     vertical-align: -30% !important;
