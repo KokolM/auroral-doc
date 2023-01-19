@@ -114,122 +114,122 @@ function stopPropagation(event) {
 
 function loadStyles() {
   const style = `<style>
-      #_auroral-doc-button {
-        width: 64px;
-        height: 64px;
-        background-color: white;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        z-index: 1000;
-        border-radius: 1000px 0px 0px 0px;
-        -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-        box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-      }
-
-      #_auroral-doc-button::after {
-        content: '';
-        position: absolute;
-        bottom: 16;
-        right: 12;
-        background-image: url('${cdn}/icon-48.png');
-        width: 48px;
-        height: 48px;
-      }
-
-      #_auroral-doc-button:hover {
-        cursor: pointer;
-        -webkit-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
-        box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
-      }
-
-      #_auroral-doc-panel {
-        width: 312px;
-        height: 400px;
-        background-color: white;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        z-index: 1000;
-        border-radius: 4px 0px 0px 0px;
-        -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-        box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
-      }
-
-      #_auroral-doc-panel a {
-        text-decoration: none;
-        color: #527d80;
-      }
-
-      #_auroral-doc-panel-content {
-        padding: 16px;
-      }
-
-      ._auroral-doc-panel-content-item {
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
-        padding: 12px 16px;
-        margin-bottom: 8px;
-        position: relative;
-      }
-
-      ._auroral-doc-panel-content-arrow {
-        font-size: 56px;
-        position: absolute;
-        top: calc(15%);
-        right: 24;
-      }
-
-      ._auroral-doc-panel-content-title {
-        font-size: 1.2em;
-        margin-bottom: 4px;
-      }
-
-      ._auroral-doc-panel-content-description {
-        color: black;
-        font-size: 1em;
-      }
-
-      #_auroral-doc-panel-header {
-        height: 48px;
-        background-color: #464747;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      #_auroral-doc-panel-title {
-        color: white;
-        padding-left: 12px;
-      }
-
-      #_auroral-doc-panel-title::before {
-        content: url('${cdn}/icon-24.png');
-        width: 24px;
-        height: 24px;
-        vertical-align: -30%;
-        padding: 0 16px 0 4px;
-      }
-
-      #_auroral-doc-panel-close {
-        width: 16px;
-        height: 16px;
-        padding: 12px;
-        cursor: pointer;
-        text-align: center;
-        border-radius: 1000px;
-        color: white;
-      }
-
-      #_auroral-doc-panel-contrib {
-        position: absolute;
-        right: 12;
-        bottom: 8;
-        font-size: 0.8em;
-      }
+  #_auroral-doc-button {
+    width: 64px !important;
+    height: 64px !important;
+    background-color: white !important;
+    position: fixed !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 1000 !important;
+    border-radius: 1000px 0px 0px 0px !important;
+    -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+  }
+  
+  #_auroral-doc-button::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 16 !important;
+    right: 12 !important;
+    background-image: url('./icon-48.png') !important;
+    width: 48px !important;
+    height: 48px !important;
+  }
+  
+  #_auroral-doc-button:hover {
+    cursor: pointer !important;
+    -webkit-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75) !important;
+  }
+  
+  #_auroral-doc-panel {
+    width: 312px !important;
+    height: 400px !important;
+    background-color: white !important;
+    position: fixed !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 1000 !important;
+    border-radius: 4px 0px 0px 0px !important;
+    -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75) !important;
+  }
+  
+  #_auroral-doc-panel a {
+    text-decoration: none !important;
+    color: #527d80 !important;
+  }
+  
+  #_auroral-doc-panel-content {
+    padding: 16px !important;
+  }
+  
+  ._auroral-doc-panel-content-item {
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    border-radius: 4px !important;
+    padding: 12px 16px !important;
+    margin-bottom: 8px !important;
+    position: relative !important;
+  }
+  
+  ._auroral-doc-panel-content-arrow {
+    font-size: 56px !important;
+    position: absolute !important;
+    top: calc(15%) !important;
+    right: 24 !important;
+  }
+  
+  ._auroral-doc-panel-content-title {
+    font-size: 1.2em !important;
+    margin-bottom: 4px !important;
+  }
+  
+  ._auroral-doc-panel-content-description {
+    color: black !important;
+    font-size: 1em !important;
+  }
+  
+  #_auroral-doc-panel-header {
+    height: 48px !important;
+    background-color: #464747 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  
+  #_auroral-doc-panel-title {
+    color: white !important;
+    padding-left: 12px !important;
+  }
+  
+  #_auroral-doc-panel-title::before {
+    content: url('./icon-24.png') !important;
+    width: 24px !important;
+    height: 24px !important;
+    vertical-align: -30% !important;
+    padding: 0 16px 0 4px !important;
+  }
+  
+  #_auroral-doc-panel-close {
+    width: 16px !important;
+    height: 16px !important;
+    padding: 12px !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    border-radius: 1000px !important;
+    color: white !important;
+  }
+  
+  #_auroral-doc-panel-contrib {
+    position: absolute !important;
+    right: 12 !important;
+    bottom: 8 !important;
+    font-size: 0.8em !important;
+  }  
         </style>`;
   document.head.insertAdjacentHTML('beforeend', style)
 }
