@@ -230,7 +230,6 @@ function loadStyles() {
         bottom: 8;
         font-size: 0.8em;
       }
-        </style>`
-
+        </style>`;
   document.head.insertAdjacentHTML('beforeend', style)
 }
