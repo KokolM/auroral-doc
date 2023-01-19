@@ -1,0 +1,86 @@
+#_auroral-doc-button {
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  border-radius: 1000px 0px 0px 0px;
+  -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+}
+
+#_auroral-doc-button::after {
+  content: '';
+  position: absolute;
+  bottom: 16;
+  right: 12;
+  background-image: url('./icon-48.png');
+  width: 48px;
+  height: 48px;
+}
+
+#_auroral-doc-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.75);
+}
+
+#_auroral-doc-panel {
+  width: 312px;
+  height: 400px;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  border-radius: 4px 0px 0px 0px;
+  -webkit-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 16px 2px rgba(0, 0, 0, 0.75);
+}
+
+#_auroral-doc-panel a {
+  text-decoration: none;
+  color: #527d80
+}
+
+#_auroral-doc-panel-header {
+  height: 48px;
+  background-color: #464747;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#_auroral-doc-panel-title {
+  color: white;
+  padding-left: 12px;
+}
+
+#_auroral-doc-panel-title::before {
+  content: url('./icon-24.png');
+  width: 24px;
+  height: 24px;
+  vertical-align: -30%;
+  padding:0 16px 0 0;
+}
+
+#_auroral-doc-panel-close {
+  width: 16px;
+  height: 16px;
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1000px;
+  color: white;
+}
+
+#_auroral-doc-panel-contrib {
+  position: absolute;
+  right: 4;
+  bottom: 4;
+}
