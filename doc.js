@@ -77,6 +77,7 @@ panel.append(iconContrib)
 window.addEventListener(
   'DOMContentLoaded',
   function () {
+    console.log('here')
     document.body.append(button)
     document.body.append(panel)
     loadStyles()
@@ -170,7 +171,7 @@ function loadStyles() {
   }
   
   ._auroral-doc-panel-content-item::after {
-    content: ' \276F';
+    content: ' \\276F';
     font-size: 20px !important;
     position: absolute !important;
     top: 24 !important;
