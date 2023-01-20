@@ -79,7 +79,7 @@ window.addEventListener(
   function () {
     document.body.append(button)
     document.body.append(panel)
-    // loadStyles()
+    loadStyles()
   },
   false
 )
