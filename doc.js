@@ -4,7 +4,7 @@ const show = 'display: block'
 const items = [
   {
     title: 'Blog',
-    href: 'https://github.com/AuroralH2020/auroral-node/wiki',
+    href: 'https://blog.bavenir.eu/auroral/',
     description: 'installation, examples...',
   },
   {
