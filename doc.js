@@ -63,11 +63,6 @@ items.forEach((element) => {
   description.className = '_auroral-doc-panel-content-description'
   description.innerHTML = element.description
   item.append(description)
-
-  const arrow = document.createElement('div')
-  arrow.className = '_auroral-doc-panel-content-arrow'
-  arrow.innerHTML = '&#2296;'
-  item.append(arrow)
 })
 
 const iconContrib = document.createElement('div')
@@ -84,7 +79,7 @@ window.addEventListener(
   function () {
     document.body.append(button)
     document.body.append(panel)
-    loadStyles()
+    // loadStyles()
   },
   false
 )
