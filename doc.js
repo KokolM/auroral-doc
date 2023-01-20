@@ -169,11 +169,12 @@ function loadStyles() {
     position: relative !important;
   }
   
-  ._auroral-doc-panel-content-arrow {
-    font-size: 56px !important;
+  ._auroral-doc-panel-content-item::after {
+    content: ' \276F';
+    font-size: 20px !important;
     position: absolute !important;
-    top: calc(15%) !important;
-    right: 24 !important;
+    top: 24 !important;
+    right: 12 !important;
   }
   
   ._auroral-doc-panel-content-title {
@@ -218,7 +219,7 @@ function loadStyles() {
   }
   
   #_auroral-doc-panel-contrib {
-    position: absolute !important;
+    position: fixed !important;
     right: 12 !important;
     bottom: 8 !important;
     font-size: 0.8em !important;
