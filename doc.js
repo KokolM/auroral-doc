@@ -125,8 +125,8 @@ function loadStyles() {
   #_auroral-doc-button::after {
     content: '' !important;
     position: absolute !important;
-    bottom: 16 !important;
-    right: 12 !important;
+    bottom: 16px !important;
+    right: 12px !important;
     background-image: url('https://cdn.jsdelivr.net/gh/KokolM/auroral-doc/icon-48.png') !important;
     width: 48px !important;
     height: 48px !important;
@@ -174,8 +174,8 @@ function loadStyles() {
     content: ' \\276F';
     font-size: 20px !important;
     position: absolute !important;
-    top: 24 !important;
-    right: 12 !important;
+    top: 24px !important;
+    right: 12px !important;
   }
   
   ._auroral-doc-panel-content-title {
@@ -212,7 +212,9 @@ function loadStyles() {
   #_auroral-doc-panel-close {
     width: 16px !important;
     height: 16px !important;
-    padding: 12px !important;
+    margin-right: 16px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
     cursor: pointer !important;
     text-align: center !important;
     border-radius: 1000px !important;
@@ -221,10 +223,10 @@ function loadStyles() {
   
   #_auroral-doc-panel-contrib {
     position: fixed !important;
-    right: 12 !important;
-    bottom: 8 !important;
+    right: 12px !important;
+    bottom: 8px !important;
     font-size: 0.8em !important;
   }  
-        </style>`;
+</style>`;
   document.head.insertAdjacentHTML('beforeend', style)
 }
